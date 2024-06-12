@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Josefin+Sans:ital,wght@1,700&family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* background-color: black; */
+    height: 7vh;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 7vh;
+    margin: 0 4vw;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 2vh;
+}
+
+nav ul li a{
+    color: #047BD5;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    font-weight: 900;
+    color: darkblue;
+    font-size: 4vh;
+}
+
+.search input{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    height: 4vh;
+    margin: 1vh 1vw;
+    padding: 0 2vw;
+    border:  2px solid #047BD5;
+    border-radius: 6px;
+}
+
+.btn{
+    margin: 1vh 0 0 -4vw;
+    height: 4.5vh;
+    width: 4vw;
+    border:  2px solid #047BD5;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    color: #047BD5;
+    font-weight: 600; 
+}
+
+.slider{
+    margin: 2vh auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 80vw;
+    margin: 2vh auto;
+    overflow: scroll;
+}
+
+.cricket{
+    display: flex;
+}
+
+.card-item{
+    margin:1vh 0.5vw;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+    margin: 2vh 0;
+}
+
+.lines{
+    margin: 0 0 3vh 0;
+}
+
+.text-centre{
+    text-align: center;
+    width: 25vh;
+}
+footer{
+    /* background-color: black; */
+    color: #047BD5;
+    height: 12vh;
+    font-family: 'Lato', sans-serif;
+}
